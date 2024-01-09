@@ -28,7 +28,7 @@ spring:
   datasource:
     url: jdbc:mysql://${DATABASE_URL:localhost}:3306/dc?createDatabaseIfNotExist=true
     username: ${DATABASE_USERNAME:root}
-    password: ${DATABASE_PASSWORD:secret}
+    password: ${DATABASE_PASSWORD:Nbnwjndsb785}
     driver-class-name: com.mysql.cj.jdbc.Driver
   sql:
     init:

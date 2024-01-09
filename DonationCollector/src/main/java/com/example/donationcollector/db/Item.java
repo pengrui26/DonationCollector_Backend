@@ -19,6 +19,8 @@ public record Item(
         String address,
         String time,
         @JsonProperty("user_id") Long userId
+){
 
-) {
+    public void insertItem(Long id, Size size, Category category, String photoUrl, String address, String time, Long userId) {
+    }
 }
